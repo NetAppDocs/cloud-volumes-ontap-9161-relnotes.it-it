@@ -20,6 +20,14 @@ Le nuove funzionalità Cloud Volumes ONTAP sono state introdotte anche nelle ult
 
 
 
+== 9.16.1 P11 (17 febbraio 2026)
+
+La patch Cloud Volumes ONTAP 9.16.1 P11 è ora disponibile per l'aggiornamento per tutti i provider cloud. La Console ti chiederà di aggiornare i tuoi sistemi esistenti a questa versione di patch.
+
+link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.16.1P11["Visualizza l'elenco dei bug risolti nella patch P11"^] (accesso al sito di supporto NetApp richiesto).
+
+
+
 == 9.16.1 P10 (22 dicembre 2025)
 
 La patch Cloud Volumes ONTAP 9.16.1 P10 è ora disponibile per l'aggiornamento per tutti i provider cloud. La console ti chiederà di aggiornare i tuoi sistemi esistenti a questa versione di patch.
