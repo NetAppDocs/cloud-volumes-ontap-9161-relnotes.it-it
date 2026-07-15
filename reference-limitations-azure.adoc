@@ -18,6 +18,7 @@ Le seguenti limitazioni note sono specifiche di Cloud Volumes ONTAP in Microsoft
 
 
 
+[[limitations-with-using-azure-vm-extensions]]
 == Limitazioni nell'utilizzo delle estensioni delle VM di Azure
 
 Cloud Volumes ONTAP non supporta le estensioni delle macchine virtuali (VM) di Azure perché influiscono sulle operazioni di gestione BlueXP . Durante la distribuzione, BlueXP impedisce l'installazione di estensioni sulle VM. Se le estensioni sono già installate sulle VM Cloud Volumes ONTAP esistenti, contattare il supporto Microsoft Azure per rimuoverle. Per indicazioni, fare riferimento all'articolo della knowledge base (KB) https://kb.netapp.com/Cloud/Cloud_Volumes_ONTAP/Can_Azure_VM_Management_Extensions_be_installed_into_Cloud_Volume_ONTAP["È possibile installare Azure VM Management Extensions in Cloud Volume ONTAP?"^]
@@ -26,6 +27,7 @@ A partire dal 14 luglio 2025, NetApp invierà e-mail e ti notificherà in BlueXP
 
 
 
+[[flash-cache-limitations]]
 == Limitazioni della cache Flash
 
 Cloud Volumes ONTAP utilizza l'archiviazione NVMe locale in alcuni tipi di VM come _Flash Cache_.  Nota questa limitazione:
@@ -35,6 +37,7 @@ Cloud Volumes ONTAP utilizza l'archiviazione NVMe locale in alcuni tipi di VM co
 
 
 
+[[limitations-with-high-availability-deployments]]
 == Limitazioni con distribuzioni ad alta disponibilità
 
 Le coppie ad alta disponibilità (HA) non sono supportate in alcune regioni.
@@ -43,6 +46,7 @@ https://bluexp.netapp.com/cloud-volumes-global-regions["Visualizza l'elenco dell
 
 
 
+[[limitations-with-ha-deployments-in-single-availability-zones]]
 == Limitazioni con le distribuzioni HA in singole zone di disponibilità
 
 A partire da Cloud Volumes ONTAP 9.15.1, è possibile distribuire istanze di macchine virtuali (VM) in modalità HA in singole zone di disponibilità (AZ) in Azure.  Per informazioni sui criteri che supportano questa funzionalità, fare riferimento a https://docs.netapp.com/us-en/cloud-volumes-ontap-9151-relnotes/reference-new.html#deploy-ha-pairs-in-single-availability-zones-on-azure["Distribuisci coppie HA in singole zone di disponibilità in Azure"^] .

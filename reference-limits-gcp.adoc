@@ -18,6 +18,7 @@ Cloud Volumes ONTAP ha limiti di configurazione dello storage per garantire oper
 
 
 
+[[maximum-system-capacity-by-license]]
 == Capacità massima del sistema per licenza
 
 La capacità massima del sistema Cloud Volumes ONTAP è determinata dalla sua licenza. La capacità massima del sistema include l'archiviazione basata su disco e l'archiviazione di oggetti utilizzata per la suddivisione in livelli dei dati.
@@ -26,6 +27,7 @@ NetApp non supporta il superamento del limite di capacità del sistema. Se si ra
 
 Per alcune configurazioni, i limiti del disco impediscono di raggiungere il limite di capacità utilizzando solo i dischi.  Puoi raggiungere il limite di capacità tramite https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-data-tiering.html["suddivisione in livelli dei dati inattivi nell'archiviazione degli oggetti"^] .  Per maggiori dettagli, fare riferimento ai limiti del disco riportati di seguito.
 
+[[cap-license-gcp]]
 .Limite di capacità per le licenze basate sulla capacità
 Grazie alle licenze basate sulla capacità, ogni sistema Cloud Volumes ONTAP supporta la suddivisione in livelli per l'archiviazione di oggetti. La capacità totale a livelli può essere scalata fino al limite del bucket del provider cloud. Sebbene la licenza non imponga restrizioni di capacità, dovresti seguire le https://www.netapp.com/pdf.html?item=/media/17239-tr-4598.pdf["Migliori pratiche FabricPool"^] per garantire prestazioni ottimali, affidabilità ed efficienza dei costi durante la configurazione e la gestione del tiering. Fare riferimento al  https://cloud.google.com/storage/docs/buckets["Documentazione di Google Cloud"^] per maggiori informazioni.
 
@@ -59,6 +61,7 @@ No, non è così. I dati in una coppia HA vengono replicati in modo sincrono tra
 
 
 
+[[aggregate-limits]]
 == Limiti aggregati
 
 Cloud Volumes ONTAP raggruppa i dischi di Google Cloud Platform in _aggregati_.  Gli aggregati forniscono spazio di archiviazione ai volumi.
@@ -92,6 +95,7 @@ Note:
 
 
 
+[[disk-and-tiering-limits]]
 == Limiti del disco e dei livelli
 
 La tabella seguente mostra la capacità massima del sistema con soli dischi e con dischi e dati a freddo suddivisi in livelli per l'archiviazione di oggetti.  I limiti del disco sono specifici per i dischi che contengono dati utente.  I limiti non includono il disco di avvio, il disco di root o la NVRAM.
@@ -120,6 +124,7 @@ La tabella seguente mostra la capacità massima del sistema con soli dischi e co
 
 
 
+[[storage-vm-limits]]
 == Limiti delle VM di archiviazione
 
 Alcune configurazioni consentono di creare VM di archiviazione aggiuntive (SVM) per Cloud Volumes ONTAP.
@@ -164,6 +169,7 @@ Le VM di archiviazione configurate per il disaster recovery (DR) non richiedono 
 
 
 
+[[logical-storage-limits]]
 == Limiti di archiviazione logici
 
 [cols="22,22,56"]
@@ -206,6 +212,7 @@ Le VM di archiviazione configurate per il disaster recovery (DR) non richiedono 
 
 
 
+[[iscsi-storage-limits]]
 == Limiti di archiviazione iSCSI
 
 [cols="3*"]
@@ -247,6 +254,7 @@ Le VM di archiviazione configurate per il disaster recovery (DR) non richiedono 
 |===
 
 
+[[cloud-volumes-ontap-ha-pairs-do-not-support-immediate-storage-giveback]]
 == Le coppie Cloud Volumes ONTAP HA non supportano la restituzione immediata dello storage
 
 Dopo il riavvio di un nodo, il partner deve sincronizzare i dati prima di poter restituire l'archiviazione.  Il tempo necessario per risincronizzare i dati dipende dalla quantità di dati scritti dai client mentre il nodo era inattivo e dalla velocità di scrittura dei dati durante il periodo di restituzione.

@@ -18,6 +18,7 @@ In AWS sono supportate diverse configurazioni Cloud Volumes ONTAP .
 
 
 
+[[supported-number-of-nodes]]
 == Numero di nodi supportato
 
 Cloud Volumes ONTAP è disponibile in AWS come sistema a nodo singolo e come coppia di nodi ad alta disponibilità (HA) per tolleranza agli errori e operazioni senza interruzioni.
@@ -26,12 +27,14 @@ L'aggiornamento di un sistema a nodo singolo a una coppia HA non è supportato. 
 
 
 
+[[supported-storage]]
 == Archiviazione supportata
 
 Cloud Volumes ONTAP supporta diversi tipi di dischi EBS e l'archiviazione di oggetti S3 per la suddivisione in livelli dei dati.  La capacità massima di archiviazione è determinata dalla licenza scelta.
 
 
 
+[[storage-support-by-license]]
 === Supporto di archiviazione tramite licenza
 
 Ogni licenza supporta una diversa capacità massima del sistema. La capacità massima del sistema include l'archiviazione basata su disco e l'archiviazione di oggetti utilizzata per la suddivisione in livelli dei dati.  NetApp non supporta il superamento di questo limite.
@@ -112,6 +115,7 @@ Note:
 ====
 
 
+[[supported-disk-sizes]]
 === Dimensioni del disco supportate
 
 In AWS, un aggregato può contenere fino a 6 dischi tutti della stessa dimensione.  Tuttavia, se si dispone di una configurazione che supporta la funzionalità Amazon EBS Elastic Volumes, un aggregato può contenere fino a 8 dischi. https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-aws-elastic-volumes.html["Scopri di più sul supporto per Elastic Volumes"^]
@@ -154,13 +158,14 @@ In AWS, un aggregato può contenere fino a 6 dischi tutti della stessa dimension
 |===
 
 
+[[supported-ec2-compute]]
 == Calcolo EC2 supportato
 
 Ogni licenza Cloud Volumes ONTAP supporta diversi tipi di istanze EC2.  Per comodità, la tabella seguente mostra vCPU, RAM e larghezza di banda per ciascun tipo di istanza supportato. https://aws.amazon.com/ec2/instance-types/["Per i dettagli più recenti e completi sui tipi di istanza EC2, fare riferimento ad AWS"^] .
 
 Cloud Volumes ONTAP può essere eseguito su un'istanza EC2 riservata o su richiesta.  Le soluzioni che utilizzano altri tipi di istanza non sono supportate.
 
-Le larghezze di banda indicate nella tabella sottostante corrispondono ai limiti AWS documentati per ciascun tipo di istanza.  Questi limiti non sono completamente in linea con ciò che Cloud Volumes ONTAP può offrire.  Per le prestazioni previste, fare riferimento a https://www.netapp.com/pdf.html?item=/media/9088-tr4383pdf.pdf["Rapporto tecnico NetApp 4383: Caratterizzazione delle prestazioni di Cloud Volumes ONTAP in Amazon Web Services con carichi di lavoro applicativi"^] .
+Le larghezze di banda indicate nella tabella sottostante corrispondono ai limiti AWS documentati per ciascun tipo di istanza. Questi limiti non sono completamente in linea con quanto Cloud Volumes ONTAP può fornire. Per le prestazioni previste, fare riferimento a https://www.netapp.com/pdf.html?item=/media/9088-tr4383.pdf["Rapporto tecnico NetApp 4383: Caratterizzazione delle prestazioni di Cloud Volumes ONTAP in Amazon Web Services con carichi di lavoro applicativi"^].
 
 [cols="8*"]
 |===
@@ -257,6 +262,7 @@ L'elevata velocità di scrittura non è supportata con questi tipi di istanze ne
 
 
 
+[[c4-m4-and-r4-instances-no-longer-supported]]
 === Le istanze c4, m4 e r4 non sono più supportate
 
 Cloud Volumes ONTAP non supporta più i tipi di istanza EC2 c4, m4 e r4 in AWS.  Se il sistema è in esecuzione su un'istanza c4, m4 o r4, passare a un'istanza c5, m5 o r5.  Non è possibile eseguire l'aggiornamento a questa versione finché non si modifica il tipo di istanza.
@@ -272,6 +278,7 @@ Per maggiori informazioni, fare riferimento a:
 
 
 
+[[supported-regions]]
 == Regioni supportate
 
 Per il supporto della regione AWS, vedere https://bluexp.netapp.com/cloud-volumes-global-regions["Regioni globali di Cloud Volumes"^] .

@@ -20,6 +20,7 @@ Le nuove funzionalità Cloud Volumes ONTAP sono state introdotte anche nelle ult
 
 
 
+[[9-16-1-p12-14-may-2026]]
 == 9.16.1 P12 (14 maggio 2026)
 
 La patch Cloud Volumes ONTAP 9.16.1 P12 è ora disponibile per l'aggiornamento per tutti i provider cloud. La Console ti chiederà di aggiornare i tuoi sistemi esistenti a questa versione di patch.
@@ -28,6 +29,7 @@ link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/
 
 
 
+[[9-16-1-p11-17-february-2026]]
 == 9.16.1 P11 (17 febbraio 2026)
 
 La patch Cloud Volumes ONTAP 9.16.1 P11 è ora disponibile per l'aggiornamento per tutti i provider cloud. La Console ti chiederà di aggiornare i tuoi sistemi esistenti a questa versione di patch.
@@ -36,6 +38,7 @@ link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/
 
 
 
+[[9-16-1-p10-22-december-2025]]
 == 9.16.1 P10 (22 dicembre 2025)
 
 La patch Cloud Volumes ONTAP 9.16.1 P10 è ora disponibile per l'aggiornamento per tutti i provider cloud. La console ti chiederà di aggiornare i tuoi sistemi esistenti a questa versione di patch.
@@ -44,6 +47,7 @@ link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/
 
 
 
+[[9-16-1-p9-04-december-2025]]
 == 9.16.1 P9 (04 dicembre 2025)
 
 La patch Cloud Volumes ONTAP 9.16.1 P9 è ora disponibile per l'aggiornamento per tutti i provider cloud. La console ti chiederà di aggiornare i tuoi sistemi esistenti a questa versione di patch.
@@ -52,6 +56,7 @@ link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/
 
 
 
+[[9-16-1-p8-16-october-2025]]
 == 9.16.1 P8 (16 ottobre 2025)
 
 La patch Cloud Volumes ONTAP 9.16.1 P8 è ora disponibile per l'aggiornamento per tutti i provider cloud. La console ti chiederà di aggiornare i tuoi sistemi esistenti a questa versione di patch.
@@ -60,6 +65,7 @@ link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/
 
 
 
+[[9-16-1-p7-09-october-2025]]
 == 9.16.1 P7 (09 ottobre 2025)
 
 La patch Cloud Volumes ONTAP 9.16.1 P7 è ora disponibile per l'aggiornamento per tutti i provider cloud. La console ti chiederà di aggiornare i tuoi sistemi esistenti a questa versione di patch.
@@ -68,6 +74,7 @@ link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/
 
 
 
+[[9-16-1-p6-09-october-2025]]
 == 9.16.1 P6 (09 ottobre 2025)
 
 La patch Cloud Volumes ONTAP 9.16.1 P6 è ora disponibile per l'aggiornamento per tutti i provider cloud. La console ti chiederà di aggiornare i tuoi sistemi esistenti a questa versione di patch.
@@ -76,6 +83,7 @@ link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/
 
 
 
+[[9-16-1-p5-28-july-2025]]
 == 9.16.1 P5 (28 luglio 2025)
 
 La patch Cloud Volumes ONTAP 9.16.1 P5 è ora disponibile per l'aggiornamento per tutti i provider cloud. La console ti chiederà di aggiornare i tuoi sistemi esistenti a questa versione di patch.
@@ -84,6 +92,7 @@ link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/
 
 
 
+[[9-16-1-p4-08-july-2025]]
 == 9.16.1 P4 (08 luglio 2025)
 
 La patch Cloud Volumes ONTAP 9.16.1 P4 è ora disponibile per l'aggiornamento per tutti i provider cloud. La console ti chiederà di aggiornare i tuoi sistemi esistenti a questa versione di patch.
@@ -92,6 +101,7 @@ link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/
 
 
 
+[[9-16-1-p3-29-may-2025]]
 == 9.16.1 P3 (29 maggio 2025)
 
 La patch Cloud Volumes ONTAP 9.16.1 P3 è ora disponibile per l'aggiornamento per tutti i provider cloud. La console ti chiederà di aggiornare i tuoi sistemi esistenti a questa versione di patch.
@@ -100,6 +110,7 @@ link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/
 
 
 
+[[9-16-1-p2-17-april-2025]]
 == 9.16.1 P2 (17 aprile 2025)
 
 La patch Cloud Volumes ONTAP 9.16.1 P2 è ora disponibile per l'aggiornamento per tutti i provider cloud. La console ti chiederà di aggiornare i tuoi sistemi esistenti a questa versione di patch.
@@ -108,6 +119,7 @@ link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/
 
 
 
+[[9-16-1-p1-17-april-2025]]
 == 9.16.1 P1 (17 aprile 2025)
 
 La patch Cloud Volumes ONTAP 9.16.1 P1 è ora disponibile per l'aggiornamento per tutti i provider cloud. La console ti chiederà di aggiornare i tuoi sistemi esistenti a questa versione di patch.
@@ -116,18 +128,21 @@ link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/
 
 
 
+[[9-16-1-ga-06-march-2025]]
 == 9.16.1 GA (06 marzo 2025)
 
 La versione di disponibilità generale Cloud Volumes ONTAP 9.16.1 è ora disponibile per la distribuzione e l'aggiornamento in AWS, Azure e Google Cloud.
 
 
 
+[[upgrade-notes]]
 == Note sull'aggiornamento
 
 Leggi queste note per saperne di più sull'aggiornamento a questa versione.
 
 
 
+[[how-to-upgrade]]
 === Come effettuare l'aggiornamento
 
 Gli aggiornamenti di Cloud Volumes ONTAP devono essere completati dalla Console. Non dovresti aggiornare Cloud Volumes ONTAP tramite System Manager o la CLI. Ciò potrebbe compromettere la stabilità del sistema.
@@ -136,12 +151,14 @@ link:http://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-updating-ontap
 
 
 
+[[supported-upgrade-path]]
 === Percorso di aggiornamento supportato
 
 È possibile effettuare l'aggiornamento a Cloud Volumes ONTAP 9.16.1 dalla versione 9.15.1 in AWS, Azure e Google Cloud. La Console ti chiederà di aggiornare i sistemi Cloud Volumes ONTAP idonei a questa versione.
 
 
 
+[[downtime]]
 === Tempo di inattività
 
 * L'aggiornamento di un sistema a nodo singolo mette il sistema offline per un massimo di 25 minuti, durante i quali l'I/O viene interrotto.

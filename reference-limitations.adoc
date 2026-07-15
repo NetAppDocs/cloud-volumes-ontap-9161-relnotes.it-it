@@ -20,6 +20,7 @@ Le seguenti limitazioni si applicano a Cloud Volumes ONTAP in tutti i provider c
 
 
 
+[[unsupported-ontap-features]]
 == Funzionalità ONTAP non supportate
 
 Le seguenti funzionalità non sono supportate da Cloud Volumes ONTAP:
@@ -52,12 +53,14 @@ https://kb.netapp.com/on-prem/ontap/da/NAS/NAS-KBs/What_are_SMB_Continuous_Avail
 
 
 
+[[maximum-concurrent-replication-operations]]
 == Numero massimo di operazioni di replica simultanee
 
 Il numero massimo di trasferimenti SnapMirror o SnapVault contemporanei per Cloud Volumes ONTAP è 100 per nodo, indipendentemente dal tipo di istanza o dal tipo di macchina.
 
 
 
+[[cloud-provider-snapshots-must-not-be-used-for-your-backup-and-recovery-plans]]
 == Gli snapshot del provider cloud non devono essere utilizzati per i piani di backup e ripristino
 
 Non dovresti utilizzare gli snapshot del tuo provider cloud come parte del tuo piano di backup e ripristino per i dati Cloud Volumes ONTAP .  Per eseguire il backup e il ripristino dei dati ospitati su Cloud Volumes ONTAP , è sempre consigliabile utilizzare copie Snapshot ONTAP o soluzioni di backup di terze parti.
@@ -69,24 +72,28 @@ NOTE: I punti di coerenza ONTAP nel file system WAFL determinano la coerenza dei
 
 
 
+[[cloud-volumes-ontap-supports-only-reserved-and-on-demand-vm-instances]]
 == Cloud Volumes ONTAP supporta solo istanze VM riservate e on-demand
 
 Cloud Volumes ONTAP può essere eseguito su un'istanza VM riservata o su richiesta del tuo provider cloud.  Altri tipi di istanze VM non sono supportati.
 
 
 
+[[automatic-application-resource-management-solutions-shouldnt-be-used]]
 == Non dovrebbero essere utilizzate soluzioni di gestione automatica delle risorse applicative
 
 Le soluzioni di gestione automatica delle risorse applicative non devono gestire i sistemi Cloud Volumes ONTAP .  In caso contrario, la configurazione potrebbe cambiare, diventando non supportata.  Ad esempio, la soluzione potrebbe modificare Cloud Volumes ONTAP in un tipo di istanza VM non supportato.
 
 
 
+[[software-updates-must-be-completed-by-bluexp]]
 == Gli aggiornamenti software devono essere completati da BlueXP
 
 Gli aggiornamenti di Cloud Volumes ONTAP devono essere completati da BlueXP.  Non dovresti aggiornare Cloud Volumes ONTAP tramite System Manager o la CLI.  Ciò potrebbe compromettere la stabilità del sistema.
 
 
 
+[[cloud-volumes-ontap-deployment-must-not-be-modified-from-your-cloud-providers-console]]
 == La distribuzione Cloud Volumes ONTAP non deve essere modificata dalla console del tuo provider cloud
 
 Le modifiche apportate alla configurazione di Cloud Volumes ONTAP dalla console del provider cloud determinano una configurazione non supportata.  Qualsiasi modifica alle risorse Cloud Volumes ONTAP create e gestite BlueXP può influire sulla stabilità del sistema e sulla capacità di BlueXP di gestirlo.
@@ -96,18 +103,21 @@ NOTE: Dopo la distribuzione iniziale, è supportata la modifica del nome della s
 
 
 
+[[disks-and-aggregates-must-be-managed-from-bluexp]]
 == I dischi e gli aggregati devono essere gestiti da BlueXP
 
 Tutti i dischi e gli aggregati devono essere creati ed eliminati direttamente da BlueXP.  Non dovresti eseguire queste azioni da un altro strumento di gestione.  Ciò potrebbe compromettere la stabilità del sistema, ostacolare la possibilità di aggiungere dischi in futuro e potenzialmente generare commissioni ridondanti per il provider cloud.
 
 
 
+[[snapmanager-licensing-limitation]]
 == Limitazione della licenza SnapManager
 
 Le licenze per server SnapManager sono supportate con Cloud Volumes ONTAP.  Le licenze per sistema di archiviazione (suite SnapManager ) non sono supportate.
 
 
 
+[[limitations-with-third-party-agents-and-extensions]]
 == Limitazioni con agenti ed estensioni di terze parti
 
 Gli agenti di terze parti e le estensioni VM non sono supportati sulle istanze di macchine virtuali Cloud Volumes ONTAP .
